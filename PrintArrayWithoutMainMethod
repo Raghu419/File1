@@ -1,0 +1,13 @@
+public class PrintArrayWithoutMain {
+    static {
+        int[] arr = {10, 20, 30, 40, 50};
+
+        System.out.print("Array elements: ");
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+
+        // Exit the program since there is no main method
+        System.exit(0);
+    }
+}
